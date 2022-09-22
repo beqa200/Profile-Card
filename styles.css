@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Outfit:wght@200;400&display=swap");
+body {
+  background: #0989b4;
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-position: top -500px left -545px, bottom -850px right -400px;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 350px;
+  height: 388px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.pattern {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.profile {
+  position: absolute;
+  margin-left: -223px;
+  margin-top: 92px;
+  border: 5px solid #ffffff;
+  border-radius: 100%;
+  width: 96px;
+  height: 96px;
+}
+
+.mid1 {
+  display: flex;
+  text-align: center;
+}
+.name {
+  margin-top: 68px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+  margin-left: 108px;
+}
+.age {
+  margin-top: 68px;
+  margin-left: 8.5px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6b7082;
+}
+
+.place {
+  display: block;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6b7082;
+}
+
+hr {
+  border-color: #e8e9ec;
+  margin-top: 28px;
+}
+
+.mid2 {
+  display: flex;
+  height: 40px;
+}
+
+.mid3 {
+  display: flex;
+}
+.mid2 p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2e3349;
+}
+
+.mid3 p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
+
+.mid2 .p1 {
+  margin-left: 59px;
+}
+.mid2 .p2 {
+  margin-left: 58.5px;
+}
+.mid2 .p3 {
+  margin-left: 57px;
+}
+
+.mid3 .p1 {
+  margin-left: 48.5px;
+}
+.mid3 .p2 {
+  margin-left: 51.5px;
+}
+.mid3 .p3 {
+  margin-left: 60.5px;
+}
